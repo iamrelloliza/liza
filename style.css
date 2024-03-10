@@ -207,8 +207,20 @@ image img:hover{
   margin-bottom: 100px;
 }
 
-.about{
+.about-me{
+  width: 100%; /* Adjust as needed */
+  text-align: center;
   display: flex;
+        
+}
+
+.box{
+  width: 45%; /* Adjust as needed */
+  padding: 10px; 
+}
+
+.about{
+  display: inline-block;
   align-items: center;
   justify-content: center;
 }
@@ -245,7 +257,33 @@ image img:hover{
 
 circle {
   fill: none;
-  stroke: red;
+  stroke: url(#GradientColor); 
+  stroke-width: 20px;
+  stroke-dasharray: 450;
+  stroke-dashoffset: 10;
+  ;
+}
+
+.label{
+  margin-left: 0px;;
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 100px;
+  font-size: 30px;
+
+}
+#yes{
+  margin-left: 50px;
+}
+
+#yes1{
+  margin-left: 40px;
+}
+
+svg{
+  top: -180px;
+  left: -20px;
+  position: relative;
+  
 }
 
 
