@@ -6,6 +6,7 @@
     <title>Liza Mae Rellosa</title>
     <link rel="icon" href="/fleur.png">
     <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
 </head>
 <body>
     
@@ -14,10 +15,10 @@
             <nav>
               <a class="logo" href="#section" style="color: white; font-size: large;"> Liza Mae Rellosa</a>
                 <ul>
-                    <li ><a class="active" href="#">home</a></li>
-                    <li><a href="#flowers">about me</a></li>
-                    <li><a href="#shop">works</a></li>
-                    <li><a href="#shop">contact</a></li>
+                    <li ><a  href="#">home</a></li>
+                    <li><a  href="#me">about me</a></li>
+                    <li><a rel="noopener" target="_blank"  href="#dito">works</a></li>
+                    <li><a href="#mee">contact</a></li>
                     
                   
                 </ul>
@@ -50,6 +51,7 @@
             </div>
          </div>
     </div>
+    <div class="p" id="me"></div>
     </div>
 
     <p class="works"> about me </p>
@@ -74,7 +76,7 @@
                 <circle cx="100" cy="100" r="90" stroke-linecap="round" />
               </svg>
             </div>
-            <div class="label"> programming</div>
+            <div class="label"> front-end </div>
           </div>
       </div>
       </div>
@@ -84,7 +86,7 @@
           <div class="skill">
             <div class="outer">
               <div class="inner">
-                <div id="number">65%</div>
+                <div id="number">50%</div>
               </div>
               <svg xmlns = "http://www/w3.org/2000/svg" version="1.1" width="230px" height="300px">
                 <defs>
@@ -93,10 +95,10 @@
                     <stop offset="100%" stop-color="#436850" />
                   </linearGradient>
                 </defs>
-                <circle cx="100" cy="100" r="90" stroke-linecap="round" />
+                <circle class="circle1" cx="100" cy="100" r="90" stroke-linecap="round" />
               </svg>
             </div>
-            <div class="label" id="yes"> writing </div>
+            <div class="label">back-end </div>
           </div>
       </div>
       </div>
@@ -106,7 +108,7 @@
           <div class="skill">
             <div class="outer">
               <div class="inner">
-                <div id="number">65%</div>
+                <div id="number">70%</div>
               </div>
               <svg xmlns = "http://www/w3.org/2000/svg" version="1.1" width="230px" height="300px">
                 <defs>
@@ -115,7 +117,7 @@
                     <stop offset="100%" stop-color="#436850" />
                   </linearGradient>
                 </defs>
-                <circle cx="100" cy="100" r="90" stroke-linecap="round" />
+                <circle class="circle2" cx="100" cy="100" r="90" stroke-linecap="round" />
               </svg>
              
             </div>
@@ -138,25 +140,21 @@
                     <stop offset="100%" stop-color="#436850" />
                   </linearGradient>
                 </defs>
-                <circle cx="100" cy="100" r="90" stroke-linecap="round" />
+                <circle class="circle3" cx="100" cy="100" r="90" stroke-linecap="round" />
               </svg>
             </div>
-            <div class="label" id="yes1"> ano pa </div>
+            <div class="label" id="yes1"> writing</div>
           </div>
       </div>
       </div>
-
+     
     </div>
-
-<!------
-    
-
-
-    
-
+   
+    <a id="dito">
   
 
-
+    <p class="works1"> works </p>
+   
     <div class="section2">
         <div class="product-container">
             <div class="product-card">
@@ -164,30 +162,59 @@
               <div class="product-info">
                 <h2>Flower Shop </h2>
                 <p class="price">E-commerce</p>
-                <a href="/checkout.html"><button class="button" >.</button></a>
+                <a href="/checkout.html"><button class="button" >see preview here</button></a>
               </div>
             </div>
         
             <div class="product-card">
-              <img src="/2.jpg" alt="Product 2 Image">
+              <img src="bike.png" alt="Product 2 Image">
               <div class="product-info">
-                <h2>to be added</h2>
-                <p class="price">to be added</p>
-                <a href="/checkout.html"><button class="button" >.</button></a>
+                <h2>Bicycle Shop</h2>
+                <p class="price">E-commerce</p>
+                <a href="/checkout.html"><button class="button" >see preview here</button></a>
               </div>
             </div>
         
             <div class="product-card">
-              <img src="/3.jpg" alt="Product 3 Image">
+              <img src="writing.png" alt="Product 3 Image">
               <div class="product-info">
-                <h2>to be added</h2>
-                <p class="price">to be added</p>
-                <a href="/checkout.html"><button class="button" >.</button></a>
+                <h2>mi alma en palabras</h2>
+                <p class="price">literary works</p>
+                <a href="/checkout.html"><button class="button" >see preview here</button></a>
               </div>
             </div>
           </div>
     </div>
- ---->
+
+    <p class="works1" id="mee"> reach me out </p>
+
+    <div  class="section1">
+      <div class="row">
+        <div class="colz">
+            <div class="image">
+               <img src="pic1.jpg">
+            </div>
+             <div class="content">
+              <form id="contactForm">
+                <div class="messeu">send me a message</div>
+                <label for="email">Email:</label>
+                <input class="style" type="email"  id="email" name="email" required><br><br>
+            
+                <label for="phone">Contact Number:</label>
+                <input class="style1" type="text" id="phone" name="phone" required><br><br>
+            
+                <label for="message">Message:</label><br>
+                <textarea class="style2" id="message" name="message" rows="6"  required></textarea><br><br>
+            
+                <button class="oval-button" type="submit">Submit</button>
+            </form>
+              
+            </div>
+         </div>
+    </div>
+    <div class="p" id="me"></div>
+    </div>
+
     
 
 
