@@ -1,0 +1,1012 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,800;1,100;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+
+
+*{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    height: 100px;
+}
+
+.navi{
+    height: 130px;
+}
+
+@media screen and (min-width : 601px) {
+
+    *{
+        margin: 0px;
+        font-family: 'Poppins', sans-serif;
+    }
+    body {
+        background-image:  url('/images/trail.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        overflow-y: scroll;
+        
+      }
+    .navbar-toggler {
+        background-color: #ffff;
+        width: 60px;
+        margin-left: 155px;
+        
+      }
+      
+      .navbar{
+        height: 150px;
+        padding-right: 150px;
+        padding-left: 30px;
+      }
+     .container-fluid img{
+        margin-bottom: 20px;
+       padding: 20px 0px  0px 110px;
+     }
+      
+
+    .busines{
+        color: #FAE7C9;
+    }
+
+    .con1{
+       display: flex;
+       margin-top: 100px;
+       background-color: #B0926A;
+       height: 550px;
+       width: 1500px;
+       margin-left: -130px;
+        
+        
+    }
+    .col1 img{
+        height: 500px;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    .row3{
+        padding: 20px;
+        background-color: #B0926A;
+        color: #503C3C;
+        width: 380px;
+    }
+
+    .imgs{
+        height: 190px;
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+    .col2 p{
+        margin-top: 50px;
+        font-family: 'Poppins', sans-serif;
+        color: #FAE7C9;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: justify;
+        font-size: 25px;
+    }
+
+    
+    .col3 img{
+        width: 320px;
+        height: 300px;
+        
+    }
+    h1{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .row1 img{
+        width: 400px;
+        margin-bottom: 20px;
+       
+    }
+    .row1{
+      padding-right: 200px;
+      margin-top: 100px;
+    }
+    .row2{
+        background-color: #B0926A;
+        border-radius: 30px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+        margin-bottom: 30px;
+        width: 1500px;
+    }
+    .col4{
+      display: flex;
+    }
+    .busines{
+      color: #FAE7C9;
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      font-size: 100px;
+
+  }
+  .partners{
+    text-align: center;
+    font-size: 40px;
+    color: #503C3C;
+    font-family: 'Merriweather', serif
+  }
+
+  label {
+    margin: 30px 0 0 50px;
+    color: #F9EFDB;
+    font-size: 30px;
+  }
+  
+  input, textarea {
+    width: 600px;
+    padding: 10px;
+    margin-left: 300px;
+    margin: 5px 0 20px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input:focus, textarea:focus {
+    outline: none;
+    border-color: #EBD9B4;
+  }
+
+  button {
+    background-color: #503C3C;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 130px;
+    margin-bottom: 50px;
+    width: 400px;
+  }
+  
+  .button:hover {
+    background-color: #EBD9B4;
+    color: #503C3C;
+  }
+
+  .products{
+    display: inline-block;
+  }
+
+
+
+  .openModalBtn{
+    background-color: #503C3C;
+    width: 200px;
+  }
+  .products{
+    align-items: center;
+    display: fle;
+  }
+
+
+  .card.my-card img {
+    width: 700px;
+    height: 500px;
+    margin-left: 50px;
+    
+  }
+  .card.my-card {
+   margin-left: 230px;
+   width: 800px;
+   margin-top: 100px;
+   padding-top: 30px;
+   text-align: center;
+   background-color: #B0926A;
+   
+  }
+  .openModalBtn{
+    margin-left: 300px;
+    margin-top: 30px;
+
+  }
+
+  .row{
+     display: inline-block;
+       margin-top: 100px;
+       background-color: #B0926A;
+       height: 550px;
+       width: 1500px;
+       margin-left: -130px;
+        
+  }
+  .containers{
+    display: flex;
+  }
+
+  .row h2{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 35px;
+    
+  }
+
+  .row p{
+    text-align: justify;
+    margin-left: 30px;
+    font-size: 20px;
+    
+  }
+
+  .imgs{
+      height: 450px;
+        margin-top: 30px;
+        margin-left: 5px;
+       
+        
+  }
+
+  
+  .row3{
+    padding: 20px;
+    background-color: #B0926A;
+    color: #EBD9B4;
+    width: 1500px;
+    height: 220px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    margin-left: -150px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.row5{
+  padding: 20px;
+  background-color: #B0926A;
+  color: #EBD9B4;
+  width: 800px;
+  height: 1050px;
+  margin-bottom: 100px;
+  border-radius: 30px;
+  margin-left: 250px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.map{
+  width: 1000px;
+  margin-left: 75px;
+  height: 800px;
+  margin-bottom: 300px;
+}
+
+.buttons{
+  margin-right: 100px;
+}
+
+.style{
+  margin-left: 30px;
+}
+
+  /* ===== MODAL ======= */
+      /* The Modal (background) */
+      .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 300px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      }
+      
+      /* Modal Content */
+      .modal-content {
+        position: relative;
+        background-color: #fefefe;
+        margin: auto;
+        padding: 0;
+        border: 1px solid #888;
+        width: 80%;
+        max-width: 700px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+        -webkit-animation-name: animatetop;
+        -webkit-animation-duration: 0.4s;
+        animation-name: animatetop;
+        animation-duration: 0.4s
+      }
+      
+      /* Add Animation */
+      @-webkit-keyframes animatetop {
+        from {top:-300px; opacity:0} 
+        to {top:0; opacity:1}
+      }
+      
+      @keyframes animatetop {
+        from {top:-300px; opacity:0}
+        to {top:0; opacity:1}
+      }
+      
+      /* The Close Button */
+      .close {
+        color: white;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      
+      .close:hover,
+      .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      
+      .modal-header {
+        /* !important para i override ang default bootstrap css */
+        display: block !important; 
+        padding: 2px 16px;
+        background-color: #503C3C;
+        color: white;
+        text-align: center;
+      }
+      
+      .modal-body {padding: 2px 16px;}
+      
+      .modal-footer {
+        padding: 2px 16px;
+        background-color: #503C3C;
+        color: white;
+      }
+
+      .partnership{
+        margin-left: 300px;
+        margin-right: 300px;
+      }
+
+      .production{
+        margin-left: 300px;
+      }
+      .production2{
+        margin-right: 300px;
+      }
+
+      .about{
+        margin-left: 350px;
+        margin-bottom: 100px;
+      }
+
+
+      .contacto{
+        margin-left: 330px;
+      }
+
+
+
+
+
+
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    *{
+        margin: 0px;
+        font-family: 'Poppins', sans-serif;
+    }
+    body {
+        background-image:  url('/images/trail.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        overflow-y: scroll;
+        
+      }
+    .navbar-toggler {
+        background-color: #ffff;
+        width: 60px;
+        margin-left: 155px;
+        
+      }
+      
+      .navbar{
+        height: 50px;
+      }
+     .container-fluid img{
+        margin-bottom: 20px;
+       padding: 20px 0px  0px 110px;
+     }
+      
+    .navitems{
+        
+        text-align: center;
+    }
+    .busines{
+        color: #FAE7C9;
+    }
+
+    .con1{
+        background-color: #B0926A;
+        margin-top: 350px;
+        border-radius: 30px;
+        padding-bottom: 20px;
+        width: 370px;
+    }
+    .col1 img{
+        height: 190px;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    .row3{
+        padding: 20px;
+        background-color: #B0926A;
+        color: #503C3C;
+        width: 380px;
+    }
+
+    .imgs{
+        height: 190px;
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+    .col2 p{
+        margin-top: 50px;
+        font-family: 'Poppins', sans-serif;
+        color: #FAE7C9;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: justify;
+    }
+
+    
+ 
+    h1{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .row1 img{
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+    .row2{
+        background-color: #B0926A;
+        margin-top: 50px;
+        border-radius: 30px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+        margin-bottom: 30px;
+        width: 600px;
+    }
+    .partners{
+        text-align: center;
+        font-size: 25px;
+        color: #503C3C;
+        font-family: 'Merriweather', serif;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      label {
+        margin: 10px 0 0 10px;
+        color: #F9EFDB;
+
+      }
+      
+      input, textarea {
+        width: 350px;
+        padding: 10px;
+        margin-left: 20px;
+        margin: 5px 0 20px 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      
+      input:focus, textarea:focus {
+        outline: none;
+        border-color: #EBD9B4;
+      }
+      
+      button {
+        background-color: #503C3C;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-left: 30px;
+        width: 300px;
+      }
+      
+      .button:hover {
+        background-color: #EBD9B4;
+        color: #503C3C;
+      }
+
+      .card.my-card{
+        background-color: #C6A969;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 20px;
+        margin-top: 40px;
+        padding: 20px;
+        border-radius: 8px;
+        width: 300px;
+        height: 350px;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      .openModalBtn{
+        background-color: #503C3C;
+        width: 200px;
+      }
+      .products{
+        align-items: center;
+      }
+
+      .card.my-card:hover {
+        transform: scale(1.05);
+      }
+
+      .map{
+        margin-top: 30px;
+        width: 360px;
+      }
+    
+      .card.my-card img {
+        width: 250px;
+        height: 200px;
+      }
+    
+      .card.my-card h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        text-align: center;
+        margin-top: 5px;
+      }
+    
+      .card.my-card p {
+        color: #fff;
+        line-height: 1.5;
+        
+      }
+    
+      h1{
+        padding-top: 200px;
+        font-size: 50px;
+        text-align: center;
+      }
+
+      .sample{
+        margin-top: 20px;
+      }
+
+      .row{
+        background-color: #B0926A;
+        margin: 20px;
+        border-radius: 20px;
+        width: 370px;
+      }
+
+      .row h2{
+        margin-top: 20px;
+        text-align: center;
+      }
+
+      .row p{
+        text-align: justify;
+        
+      }
+    
+      /* ===== MODAL ======= */
+      /* The Modal (background) */
+      .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 300px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      }
+      
+      /* Modal Content */
+      .modal-content {
+        position: relative;
+        background-color: #fefefe;
+        margin: auto;
+        padding: 0;
+        border: 1px solid #888;
+        width: 80%;
+        max-width: 700px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+        -webkit-animation-name: animatetop;
+        -webkit-animation-duration: 0.4s;
+        animation-name: animatetop;
+        animation-duration: 0.4s
+      }
+      
+      /* Add Animation */
+      @-webkit-keyframes animatetop {
+        from {top:-300px; opacity:0} 
+        to {top:0; opacity:1}
+      }
+      
+      @keyframes animatetop {
+        from {top:-300px; opacity:0}
+        to {top:0; opacity:1}
+      }
+      
+      /* The Close Button */
+      .close {
+        color: white;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      
+      .close:hover,
+      .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      
+      .modal-header {
+        /* !important para i override ang default bootstrap css */
+        display: block !important; 
+        padding: 2px 16px;
+        background-color: #503C3C;
+        color: white;
+        text-align: center;
+      }
+      
+      .modal-body {padding: 2px 16px;}
+      
+      .modal-footer {
+        padding: 2px 16px;
+        background-color: #503C3C;
+        color: white;
+      }
+
+  *{
+        margin: 0px;
+        font-family: 'Poppins', sans-serif;
+    }
+    body {
+        background-image:  url('/images/trail.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        overflow-y: scroll;
+        
+      }
+    .navbar-toggler {
+        background-color: #ffff;
+        width: 60px;
+        margin-left: 155px;
+        
+      }
+      
+      .navbar{
+        height: 50px;
+      }
+     .container-fluid img{
+        margin-bottom: 20px;
+       padding: 20px 0px  0px 110px;
+     }
+      
+    .navitems{
+        
+        text-align: center;
+    }
+    .busines{
+        color: #FAE7C9;
+    }
+
+    .con1{
+        background-color: #B0926A;
+        margin-top: 350px;
+        border-radius: 30px;
+        padding-bottom: 20px;
+        width: 370px;
+    }
+    .col1 img{
+        height: 190px;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    .row3{
+        padding: 20px;
+        background-color: #B0926A;
+        color: #503C3C;
+        width: 380px;
+    }
+
+    .imgs{
+        height: 190px;
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+    .col2 p{
+        margin-top: 50px;
+        font-family: 'Poppins', sans-serif;
+        color: #FAE7C9;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: justify;
+    }
+
+    
+    .col3 img{
+        width: 320px;
+        height: 300px;
+        
+    }
+    h1{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .row1 img{
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+    .row2{
+        background-color: #B0926A;
+        margin-top: 50px;
+        border-radius: 30px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+        margin-bottom: 30px;
+        width: 370px;
+    }
+    .partners{
+        text-align: center;
+        font-size: 25px;
+        color: #503C3C;
+        font-family: 'Merriweather', serif;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      label {
+        margin: 10px 0 0 10px;
+        color: #F9EFDB;
+
+      }
+      
+      input, textarea {
+        width: 350px;
+        padding: 10px;
+        margin-left: 20px;
+        margin: 5px 0 20px 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      
+      input:focus, textarea:focus {
+        outline: none;
+        border-color: #EBD9B4;
+      }
+      
+      button {
+        background-color: #503C3C;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-left: 30px;
+        width: 300px;
+      }
+      
+      .button:hover {
+        background-color: #EBD9B4;
+        color: #503C3C;
+      }
+
+      .card.my-card{
+        background-color: #C6A969;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 20px;
+        margin-top: 40px;
+        padding: 20px;
+        border-radius: 8px;
+        width: 300px;
+        height: 350px;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      .openModalBtn{
+        background-color: #503C3C;
+        width: 200px;
+      }
+      .products{
+        align-items: center;
+      }
+
+      .card.my-card:hover {
+        transform: scale(1.05);
+      }
+
+      .map{
+        width: 360px;
+      }
+    
+      .card.my-card img {
+        width: 250px;
+        height: 200px;
+      }
+    
+      .card.my-card h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        text-align: center;
+        margin-top: 5px;
+      }
+    
+      .card.my-card p {
+        color: #fff;
+        line-height: 1.5;
+        
+      }
+    
+      h1{
+        padding-top: 200px;
+        font-size: 50px;
+        text-align: center;
+      }
+
+      .sample{
+        margin-top: 20px;
+      }
+
+      .row{
+        background-color: #B0926A;
+        margin: 20px;
+        border-radius: 20px;
+        width: 370px;
+      }
+
+      .row h2{
+        margin-top: 20px;
+        text-align: center;
+      }
+
+      .row p{
+        text-align: justify;
+        
+      }
+    
+      /* ===== MODAL ======= */
+      /* The Modal (background) */
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      padding-top: 300px; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+    
+    /* Modal Content */
+    .modal-content {
+      position: relative;
+      background-color: #fefefe;
+      margin: auto;
+      padding: 0;
+      border: 1px solid #888;
+      width: 80%;
+      max-width: 700px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+      -webkit-animation-name: animatetop;
+      -webkit-animation-duration: 0.4s;
+      animation-name: animatetop;
+      animation-duration: 0.4s
+    }
+    
+    /* Add Animation */
+    @-webkit-keyframes animatetop {
+      from {top:-300px; opacity:0} 
+      to {top:0; opacity:1}
+    }
+    
+    @keyframes animatetop {
+      from {top:-300px; opacity:0}
+      to {top:0; opacity:1}
+    }
+    
+    /* The Close Button */
+    .close {
+      color: white;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    
+    .close:hover,
+    .close:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    
+    .modal-header {
+      /* !important para i override ang default bootstrap css */
+      display: block !important; 
+      padding: 2px 16px;
+      background-color: #503C3C;
+      color: white;
+      text-align: center;
+    }
+    
+    .modal-body {padding: 2px 16px;}
+    
+    .modal-footer {
+      padding: 2px 16px;
+      background-color: #503C3C;
+      color: white;
+    }
+}
+
+.partnership .row2{
+
+  margin-left: 20px;
+
+
+}
+
+.about{
+  margin-bottom: 100px;
+}
+
+.lucy{
+  margin-left: 20px;
+}
+
+.contacto{
+  margin-left: 20px;
+}
+
+.row5{
+  padding: 20px;
+  background-color: #B0926A;
+  color: #EBD9B4;
+  width: 400px;
+  height: 600px;
+  margin-bottom: 100px;
+  border-radius: 30px;
+  margin-top: 100px;
+  font-size: 20px;
+  text-align: center;
+  margin-left: -5px;
+}
+
+    /* malaking screen ahead*/
+
+ 

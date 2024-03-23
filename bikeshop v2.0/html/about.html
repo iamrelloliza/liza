@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/bikeshop v2.0/css/style.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light  bg-dark navi sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img class="logo" src="/bikeshop v2.0/images/logobike.png" alt="" srcset=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end navitems" id="navbarSupportedContent" >
+            <ul class="navbar-nav mr-auto mb-2 mb-lg-0" >
+              <li class="nav-item">
+                <a class="nav-link active text-white"  aria-current="page" href="/bikeshop v2.0/html/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/bikeshop v2.0/html/partnership.html">Partnership</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white " href="/bikeshop v2.0/html/products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white " href="/bikeshop v2.0/html/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white " href="/bikeshop v2.0/html/contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          </div>
+        </div>
+        <div id="home" class="divi"></div>
+      </nav>
+
+
+      <h1 id="about" class="busines">ABOUT US </h1>
+
+    <div class="about">
+       
+
+
+        <div class="row">
+          <div class="containers">
+              <div class="image">
+                 <img class="imgs" src="/bikeshop v2.0/images/bikeu.jpg">
+              </div>
+               <div class="content">
+               <h2>Greetings, dear customers</h2> <br>
+               <p>The objective of our company is to offer bicycles that might bring you joy and enhance your
+               overall satisfaction. We have established this shop with the aim of providing people with
+              high-quality products that can be enjoyed by individuals of all generations. Our inventory
+              includes a wide variety of bicycles for you to pick from. You have the option to construct a
+              customizable bicycle according to your personal preferences <br> <br>
+              Experience the thrill of cycling like never before with our amazing selection of high-quality
+              bicycles, safety gear, and accessories. Our shop offers everything you need to make your ride
+              safer, more comfortable, and more enjoyable. Don't miss out on the opportunity to elevate your
+              biking experience to the next level; visit us today!</p>
+              </div>
+           </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+      <script>
+  
+  
+        // Javascript code na reusable para sa modal.
+        // Function to initialize modal behavior
+        function initializeModal(modalId) {
+          var modal = document.getElementById(modalId);
+          var openModalBtns = document.querySelectorAll('[data-modal-id="' + modalId + '"]');
+          var closeModal = modal.querySelector('.close');
+  
+          openModalBtns.forEach(function(btn) {
+            btn.addEventListener('click', function() {
+              modal.style.display = "block";
+            });
+          });
+  
+          closeModal.addEventListener('click', function() {
+            modal.style.display = "none";
+          });
+  
+          window.addEventListener('click', function(event) {
+            if (event.target == modal) {
+              modal.style.display = "none";
+            }
+          });
+        }
+  
+        // Initialize modals
+        document.addEventListener('DOMContentLoaded', function() {
+          var modals = document.querySelectorAll('.modal');
+          modals.forEach(function(modal) {
+            initializeModal(modal.id);
+          });
+        });
+  
+      </script>
+</body>
+</html>

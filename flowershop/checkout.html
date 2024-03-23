@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Fleur Tulipe</title>
+    <link rel="stylesheet" href="checkout.css">
+    <link rel="icon" href="/fleur.png">
+
+</head>
+<body>
+<div class="margin"></div>
+<div class="container">
+    <h2>Checkout</h2>
+    <form id="checkoutForm">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label  for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" required></textarea>
+
+        <label for="cardNumber">Credit Card Number:</label>
+        <input type="text" id="cardNumber" name="cardNumber" required>
+
+        <label for="expiryDate">Expiry Date:</label>
+        <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YYYY" required>
+
+        <label for="cvv">CVV:</label>
+        <input type="text" id="cvv" name="cvv" required>
+
+        <button type="button" onclick="submitForm()">Complete Purchase</button>
+    </form>
+</div>
+
+<script>
+    function submitForm() {
+        // You can add additional logic here, such as sending the form data to a server for processing.
+        alert("Purchase completed! Thank you for shopping with us.");
+    }
+</script>
+
+</body>
+</html>
